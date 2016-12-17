@@ -1,0 +1,122 @@
+
+
+h1 {
+	color: red;
+	font-size: 45px;
+	text-align: center;
+	font-style: italic;
+	position: relative;
+	top: 50px;
+}
+
+
+}
+
+header {
+	text-align: center;
+	background-color: maroon;
+	position: relative;
+	top: 300px;
+	height: 300px;
+	width: 1200px;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	height: 450px;
+	width: 1200px;
+}
+p {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px;
+	margin: 10px;
+	width: 80%;
+	position: relative;
+	
+
+
+}
+
+.sec1 {
+	float: left;
+	position: relative;
+	left: 30px;
+}
+
+.sec2 {
+	float:center;
+	position: relative;
+	left: 90px;
+}
+
+.sec3 {
+
+	float: right;
+	position: relative;
+	left: 145px;
+	bottom: 450px;
+
+}
+#box {
+	font-weight: bold;
+	background-color: gray;
+	opacity: .7;
+	padding: 5px;
+	border: 3px solid black;
+	margin: 10px;
+	width: 31%;
+	position: relative;
+	top: 200px;
+	float: left;
+	
+}
+
+.subsec1, .subsec2, .subsec3 {
+	text-align: center;
+	padding: 5px;
+	border: 3px solid black;
+	width: 100px;
+	margin: 0%;
+	float: right;
+	position: relative;
+	bottom: 9px;
+	left: 9px;
+
+	
+
+} 
+
+.subsec1 {
+	
+	color: black;
+	background-color: pink;
+	
+
+}
+
+.subsec2 {
+	color: white;
+	background-color: red;
+	
+
+}
+
+.subsec3 {
+	color: black;
+	background-color: yellow;
+
+
+}
+
+@media (min-width: 1200px) {
+	section {
+		width: 33.33%
+	}
+}
