@@ -305,13 +305,14 @@ body {
   -o-animation-timing-function: linear;
   -o-animation-iteration-count: infinite; }
 
-  .snow-11 {
-  -webkit-animation-name: snow-1;
-  -webkit-animation-duration: 5s;
-  -moz-animation-name: snow-1;
-  -moz-animation-duration: 2s;
-  -o-animation-name: snow-1;
-  -o-animation-duration: 4s; }
+  .snow-11 { 
+  -webkit-animation-name: snow-2;
+  -webkit-animation-duration: 3s;
+  -moz-animation-name: snow-2;
+  -moz-animation-duration: 3s;
+  -o-animation-name: snow-2;
+  -o-animation-duration: 3s; 
+  }
 
 .snow-1 {
   -webkit-animation-name: snow-1;
